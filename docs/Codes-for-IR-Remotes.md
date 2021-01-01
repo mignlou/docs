@@ -297,6 +297,25 @@ Digital TV	{"Protocol":"SONY","Bits":15,"Data":"0x25EE"}
 * 0x20DF5FA0="Enter Password"
 * 0x20DF3FC0="Warning: Reset to factory"
 
+## IR Remote Codes Samsung TV Dedicated Power / Inputs
+
+Power Off	{"Protocol":"SAMSUNG"," Bits":32,"Data":"0xE0E019E6","DataLSB":"0x07079867","Repeat":0}
+
+Power On	{"Protocol":"SAMSUNG ","Bits":32,"Data":"0xE0E09966","DataLSB":"0x07079966","Repeat":0}
+
+Power on/off	{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E040BF","DataLSB":"0x070702FD","Repeat":0}
+
+Input AV	{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E021DE","DataLSB":"0x0707847B","Repeat":0}
+
+Input Component	{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0619E","DataLSB":"0x07078679","Repeat":0}
+
+Input HDMI1	{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E09768","DataLSB":"0x0707E916","Repeat":0}
+
+Input HDMI2	{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E07D82","DataLSB":"0x0707BE41","Repeat":0}
+
+Input HDMI3	{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E043BC","DataLSB":"0x0707C23D","Repeat":0}
+
+Input TV	{"Protocol":"SAMSUNG","Bits":32,"Data":"0xE0E0D827","DataLSB":"0x07071BE4","Repeat":0}
 
 # Set-top Boxes
 
